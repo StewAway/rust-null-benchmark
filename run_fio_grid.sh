@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BLOCK_SIZES=("128k")
+BLOCK_SIZES=("4k" "8k" "16k" "32k" "64k" "128k")
 NUMJOBS=("1" "2" "3" "4")
 PATTERNS=("seq_read" "seq_write" "rand_read" "rand_write")
 

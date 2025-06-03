@@ -16,7 +16,8 @@ for base in base_dirs:
             for nj in numjobs:
                 for drv in drivers:
                     fname = f"{drv}_bs{bs}_jobs{nj}.json"
-                    fpath = os.path.join(os.path.expanduser("."), base, pattern, fname)
+                    # DOUBLE CHECK path before running check to confirm all jobs are placed in the correct dirs
+                    fpath = os.path.join(os.path.expanduser("~"), base, pattern, fname)
                     if not os.path.exists(fpath):
                         errors.append((base, pattern, bs, nj, drv, "Missing file"))
                         continue

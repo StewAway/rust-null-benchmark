@@ -119,7 +119,7 @@ We focus specifically on benchmarking **Rust vs C implementations** of the `null
 
 ---
 
-### 🧪 Reason 5: rnull.ko Compilation or Usage May Be Incorrect
+### Reason 4: rnull.ko Compilation or Usage May Be Incorrect
 - I may configure the kernel to be not the exact same kernel configuration as the research paper mentions
 
 ---

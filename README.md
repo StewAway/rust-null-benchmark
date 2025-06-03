@@ -1,1 +1,2 @@
 # rust-null-benchmark
+test

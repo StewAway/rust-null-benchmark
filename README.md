@@ -13,6 +13,7 @@ We focus specifically on benchmarking **Rust vs C implementations** of the `null
 
 ### 1. 📁 Project Structure
 
+```bash
 ├── run_fio_grid.sh
 ├── results_none
 │   ├── rand_read
@@ -43,6 +44,7 @@ We focus specifically on benchmarking **Rust vs C implementations** of the `null
 │       ├── c_bs4k_jobs1.json
 │       └── rust_bs4k_jobs1.json
 └── README.md
+```
 
 - Results files are in the form of {rust/c}_bs{4/8/16/32/64/128}k_jobs{1/2/3/4}.json => each file is a cell in figure 9
 
